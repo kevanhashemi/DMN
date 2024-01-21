@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+	<head>
+		<meta name="dtb:uid" content="f3494267-4fbe-4de3-b47d-3ed720a5bc25"/>
+		<meta name="dtb:depth" content="1"/>
+		<meta name="dtb:totalPageCount" content="0"/>
+		<meta name="dtb:maxPageNumber" content="0"/>
+	</head>
+
+	<docTitle>
+		<text>Diary of a Medical Nobody</text>
+	</docTitle>
+
+	<navMap>
+		<navPoint id="DMN_000" playOrder="1">
+			<navLabel><text>Contents</text></navLabel>
+			<content src="DMN_000.html"/>
+		</navPoint>
+		<navPoint id="DMN_001" playOrder="2">
+			<navLabel><text>Dedication</text></navLabel>
+			<content src="DMN_001.html"/>
+		</navPoint>
+		<navPoint id="DMN_002" playOrder="3">
+			<navLabel><text>Chapter 1</text></navLabel>
+			<content src="DMN_002.html"/>
+		</navPoint>
+		<navPoint id="DMN_003" playOrder="4">
+			<navLabel><text>Chapter 2</text></navLabel>
+			<content src="DMN_003.html"/>
+		</navPoint>
+		<navPoint id="DMN_004" playOrder="5">
+			<navLabel><text>Chapter 3</text></navLabel>
+			<content src="DMN_004.html"/>
+		</navPoint>
+		<navPoint id="DMN_005" playOrder="6">
+			<navLabel><text>Chapter 4</text></navLabel>
+			<content src="DMN_005.html"/>
+		</navPoint>
+		<navPoint id="DMN_006" playOrder="7">
+			<navLabel><text>Chapter 5</text></navLabel>
+			<content src="DMN_006.html"/>
+		</navPoint>
+		<navPoint id="DMN_007" playOrder="8">
+			<navLabel><text>Chapter 6</text></navLabel>
+			<content src="DMN_007.html"/>
+		</navPoint>
+		<navPoint id="DMN_008" playOrder="9">
+			<navLabel><text>Chapter 7</text></navLabel>
+			<content src="DMN_008.html"/>
+		</navPoint>
+		<navPoint id="DMN_009" playOrder="10">
+			<navLabel><text>Chapter 8</text></navLabel>
+			<content src="DMN_009.html"/>
+		</navPoint>
+		<navPoint id="DMN_010" playOrder="11">
+			<navLabel><text>Chapter 9</text></navLabel>
+			<content src="DMN_010.html"/>
+		</navPoint>
+		<navPoint id="DMN_011" playOrder="12">
+			<navLabel><text>Chapter 10</text></navLabel>
+			<content src="DMN_011.html"/>
+		</navPoint>
+		<navPoint id="DMN_012" playOrder="13">
+			<navLabel><text>Chapter 11</text></navLabel>
+			<content src="DMN_012.html"/>
+		</navPoint>
+		<navPoint id="DMN_013" playOrder="14">
+			<navLabel><text>Chapter 12</text></navLabel>
+			<content src="DMN_013.html"/>
+		</navPoint>
+		<navPoint id="DMN_014" playOrder="15">
+			<navLabel><text>Chapter 13</text></navLabel>
+			<content src="DMN_014.html"/>
+		</navPoint>
+		<navPoint id="DMN_015" playOrder="16">
+			<navLabel><text>Chapter 14</text></navLabel>
+			<content src="DMN_015.html"/>
+		</navPoint>
+		<navPoint id="DMN_016" playOrder="17">
+			<navLabel><text>Chapter 15</text></navLabel>
+			<content src="DMN_016.html"/>
+		</navPoint>
+		<navPoint id="DMN_017" playOrder="18">
+			<navLabel><text>Chapter 16</text></navLabel>
+			<content src="DMN_017.html"/>
+		</navPoint>
+		<navPoint id="DMN_018" playOrder="19">
+			<navLabel><text>Chapter 17</text></navLabel>
+			<content src="DMN_018.html"/>
+		</navPoint>
+		<navPoint id="DMN_019" playOrder="20">
+			<navLabel><text>Chapter 18</text></navLabel>
+			<content src="DMN_019.html"/>
+		</navPoint>
+		<navPoint id="DMN_020" playOrder="21">
+			<navLabel><text>Chapter 19</text></navLabel>
+			<content src="DMN_020.html"/>
+		</navPoint>
+		<navPoint id="DMN_021" playOrder="22">
+			<navLabel><text>Chapter 20</text></navLabel>
+			<content src="DMN_021.html"/>
+		</navPoint>
+		<navPoint id="DMN_022" playOrder="23">
+			<navLabel><text>Chapter 21</text></navLabel>
+			<content src="DMN_022.html"/>
+		</navPoint>
+		<navPoint id="DMN_023" playOrder="24">
+			<navLabel><text>Chapter 22</text></navLabel>
+			<content src="DMN_023.html"/>
+		</navPoint>
+		<navPoint id="DMN_024" playOrder="25">
+			<navLabel><text>Chapter 23</text></navLabel>
+			<content src="DMN_024.html"/>
+		</navPoint>
+		<navPoint id="DMN_025" playOrder="26">
+			<navLabel><text>Chapter 24</text></navLabel>
+			<content src="DMN_025.html"/>
+		</navPoint>
+		<navPoint id="DMN_026" playOrder="27">
+			<navLabel><text>Chapter 25</text></navLabel>
+			<content src="DMN_026.html"/>
+		</navPoint>
+		<navPoint id="DMN_027" playOrder="28">
+			<navLabel><text>Chapter 26</text></navLabel>
+			<content src="DMN_027.html"/>
+		</navPoint>
+		<navPoint id="DMN_028" playOrder="29">
+			<navLabel><text>Chapter 27</text></navLabel>
+			<content src="DMN_028.html"/>
+		</navPoint>
+	</navMap>
+</ncx>
