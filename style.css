@@ -75,6 +75,13 @@ h3 {
 	margin-bottom: 1.0em;
 }
 
+/* How to display the cover image. */
+.image-cover {
+	text-align: center;
+	margin: 1em;
+	page-break-after: always;
+}
+
 /* How to display full-page images: page break policy, alignment, margins. */
 .image-fp {
 	text-align: center;

@@ -373,8 +373,7 @@ if {[file exists $epub]} {
 }
 
 puts "Compressing files to $epub."
-exec zip -ruX $epub mimetype 
-exec zip -ruX $epub META-INF {*}[glob *] \
+exec zip -ruX $epub mimetype META-INF {*}[glob *] \
 	--exclude epub.tcl \
 	--exclude $book \
 	--exclude readme.md
