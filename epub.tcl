@@ -8,6 +8,45 @@ proc EPUB_format_title {title} {
 }
 
 #
+# EPUB_paragraphs adds paragraph numbers to aid with editing. It returns the 
+# number of paragraphs in the book.
+#
+proc EPUB_paragraphs {fn} {
+
+	# Find the input file.
+	if {![file exists $fn]} {
+		puts "ERROR: Cannot find book file \"$fn\"."
+		exit
+	}
+	set tfn [file join [file dirname $fn] "epub_temp.html"]
+	
+	# Open the document file for reading, and temporary file for writing.
+	set f [open $fn r]
+	set tf [open $tfn w]
+	
+	# Go through all lines and add counters.
+	set count 0
+	while {[gets $f line] >= 0} {
+		if {[regexp {^<p>} $line]} {
+			incr count
+			set line [regsub {^<p>} $line "<p><b>$count\:</b> "]
+		}
+		puts $tf $line
+	}
+	
+	# Close both files.
+	close $f
+	close $tf
+	
+	# Delete the original and replace with new file.
+	file delete $fn
+	file rename $tfn $fn
+
+	# Return the number of paragraphs.
+	return $count	
+}
+
+#
 # EPUB_contents inserts a table of contents into an HTML document file, below an
 # h3-level heading "Contents". Each other h2 heading will receive its own unique
 # identifier, derived from the section title.
